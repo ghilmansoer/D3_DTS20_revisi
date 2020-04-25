@@ -1,0 +1,1 @@
+revisi CSS line 325 dari (margin: 0px 120px) menjadi (margin: 0px 100px)

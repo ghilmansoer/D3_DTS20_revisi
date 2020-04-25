@@ -1,0 +1,648 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Akhir CSS Reset */
+
+
+/* My Style */
+body {
+    font-family: 'Roboto: reguler', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1354px;
+    width: 90%;
+    padding: 0 15px;
+    margin: 0px auto;
+}
+
+hr {
+    width: 190px;
+    margin-bottom: 50px;
+    border-top: 3px solid #C0C1C1;
+    border-radius: 25%;
+}
+
+
+/* Style CSS Header */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(3, 3, 148, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-left img.logo {
+    transition: all 0.5s;
+}
+
+.header-left img.logo:hover {
+    width: 145px;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 10px;
+    display: none;
+}
+
+/* Akhir CSS Header */
+
+
+/* Style CSS Main */
+.main {
+    width: 100%;
+    background-color: #2746a0;
+    /* padding: 0 194px; */
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-heading {
+    margin: 100px 0;
+    color: #ffffff;
+}
+
+.main-image img {
+    width: 100%;
+    margin: 100px 0;
+}
+
+.main-heading h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-heading h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 64px;
+}
+
+.main-heading p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main-heading a {
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 17px 28px;
+    background-color: #3fa9f5;
+}
+
+.main-heading a:hover {
+    opacity: .9;
+}
+
+.main-heading a:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+
+/* Akhir CSS Main */
+
+
+/* Style CSS Extra-Main-1 */
+.mainext1-wrapper {
+    height: 406px;
+    color: #646464;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ext1-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ext1-sub {
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-icon {
+    width: 20%;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #646464;
+    opacity: 50%;
+    margin: 0px 100px;
+
+}
+
+.service-title {
+    font-size: 14px;
+    opacity: 50%;
+    margin: 20px 90px;
+}
+
+.mainext1-wrapper .btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contact {
+    background-color: #2746a0;
+    color: white;
+    padding: 22px 37px;
+    margin-bottom: 65px;
+    cursor: pointer;
+    box-shadow: 0px 4px black;
+    border-radius: 7px;
+    display: inline-block;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.btn-contact:hover {
+    opacity: 0.95;
+}
+
+.btn-contact:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+
+/* Akhir CSS Extra-Main-1 */
+
+
+/* Style CSS Extra-Main-2 */
+.clear {
+    clear: left;
+}
+
+.main-extra2 {
+    margin-top: 110px;
+    padding-bottom: 110px;
+    padding-right: 5%;
+    background-color: #1e3799;
+    text-align: center;
+}
+
+
+.main-extra2 .container .heading {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #f5f6fa;
+    text-align: center;
+
+}
+
+.main-extra2 .container .heading h1 {
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 4%;
+}
+
+
+.project {
+    float: left;
+    width: 20%;
+    margin-left: 8%;
+    margin-right: 3%;
+}
+
+.project-icon {
+    position: relative;
+
+}
+
+.project-icon p {
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+.country {
+    width: 80%;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    opacity: 0.5;
+    margin-left: 24%;
+}
+
+.country p {
+    text-align: center;
+}
+
+.btn-view {
+    padding: 15px 40px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 5%;
+    background-color: #87CEFA;
+    cursor: pointer;
+    box-shadow: 0 5px #000080;
+    margin-top: 50px;
+}
+
+.btn-view:hover {
+    opacity: 1;
+}
+
+.btn-view:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+/* Akhir CSS Extra-Main-2 */
+
+
+/* Style CSS Extra-Main-3 */
+.our-team .judul {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #646464;
+}
+
+.our-team .container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.card .header {
+    width: 50%;
+    height: 40%;
+    margin: 10px auto;
+}
+
+.card .header img {
+    width: 100%;
+    height: 95%;
+    border-radius: 100%;
+}
+
+.card .header .progate-img {
+    border-radius: 0;
+    height: 45%;
+    margin-top: 25px;
+}
+
+.card .content .dts {
+    margin-bottom: 50px;
+    /* margin-top: 30px; */
+}
+
+.card .content {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.card .content h3,
+p,
+.btn-readmore {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.card .content h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card .content p {
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+.card .content a {
+    text-decoration: none;
+}
+
+.btn-readmore {
+    padding: 8px 16px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn-readmore:hover {
+    opacity: 1;
+}
+
+.btn-readmore {
+    padding: 10px 35px;
+    background-color: rgb(35, 84, 199);
+    cursor: pointer;
+    box-shadow: 0 7px #071C4D;
+}
+
+.btn-readmore:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* Akhir CSS Extra-Main-3 */
+
+
+
+/* Style CSS Footer */
+footer {
+    height: 85px;
+    width: 100%;
+    background-color: #2746a0;
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footer-left {
+    float: left;
+    margin-left: 25px;
+}
+
+footer .footer-left img {
+    width: 125px;
+
+}
+
+.footer-right {
+    float: right;
+
+}
+
+footer .footer-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+footer .footer-right a:hover {
+    font-weight: bold;
+}
+
+/* footer {
+    height: 65px;
+    width: 100%;
+    background-color: #2746a0;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.footer-left {
+    float: left;
+}
+
+footer .footer-left img {
+    width: 125px;
+}
+
+.footer-right {
+    float: right;
+
+}
+
+footer .footer-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+footer .footer-right a:hover {
+    font-weight: bold;
+} */
+
+/* Akhir CSS Footer */
